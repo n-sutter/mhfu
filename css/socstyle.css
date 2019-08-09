@@ -1,0 +1,330 @@
+body {
+  padding: 0px; margin: 0px 10px 0px 10px;
+  background: black;
+	font: 10pt normal Verdana, Tahoma, Arial;
+	color: white;
+}
+
+#menubk {
+  padding: 10px 20px 30px 0px; margin: 0px;
+        height: 300px; width: 185px;
+	float: right;
+	color: white;
+  position: absolute; top: 0px; right: 0px;
+}
+
+#socmenudiv {
+  padding: 0px; margin: 0px;
+	width: 155px;
+	float: right;
+}
+
+#socmenudiv .menuitem {
+  display: block;
+	height: 29px;
+	padding: 0px; margin: 0px;
+  text-align: center;
+  color: #830131;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#socmenudiv .menuitem:hover {
+  display: block;
+	height: 29px;
+	padding: 0px; margin: 0px;
+  text-align: center;
+  color: #cc6699;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#socmenudiv .menuitem a {
+  display: block;
+	padding: 4px;
+  color: #830131;
+	text-decoration: none;
+}
+
+#socmenudiv .menuitem:hover a {
+  display: block;
+  padding: 4px;
+  color: #cc6699;
+	text-decoration: none;
+}
+
+
+#socmenudiv .statusicon {
+  border: none;
+	margin: 0px 0px 0px 6px;
+	float: left;
+	vertical-align: text-bottom;
+}
+
+#socmenudiv .submenu {
+  padding: 0px; margin: 0px; width: 153px;
+  background: #070002;
+	border: 1px solid black;
+	text-align: left;
+}
+
+#socmenudiv .submenu ul {
+  margin: 2px 6px; padding: 0px; width: 141px;
+	list-style: none;
+	background: black;
+	overflow: hidden;
+}
+
+#socmenudiv .submenu ul li {
+  margin: 2px; padding: 2px 4px;
+	color: #830131;
+	text-align: center;
+}
+
+#socmenudiv .submenu ul li a{
+  text-decoration: none;
+	color: #830131;
+}
+
+#socmenudiv .submenu ul li a:hover{
+  text-decoration: none;
+  color: #cc6699;
+}
+
+#menuToggle.visible {
+  clear: both; text-align:right; margin: 0px 2px; float: right; width: 152px;
+}
+
+#menuToggle a { display:block; padding:2px 4px; color:lightpink; }
+#menuToggle a:hover { display:block; padding:2px 4px; color:aliceblue; }
+
+#menuToggle.hidden {
+  clear: both; text-align:right; padding: 2px; float: right;
+  filter:alpha(opacity=85);-moz-opacity:.85;opacity:.85;
+}
+
+#mainContents {
+	margin-right: 170px;
+	padding:40px;
+	color: silver;
+}
+
+#copyright {
+  color: lemonchiffon;
+	text-align: center;
+	padding: 20px;
+	margin-right: 150px;
+}
+
+#mainContents h1 {
+  padding: 4px;
+  font: 14pt bold Verdana, Tahoma, Arial;
+	color: lemonchiffon;
+}
+
+#tableItems th, #tableWeapons th.mini {
+  background: #111111;
+	padding: 0px 4px;
+	color: #830131;
+}
+
+#tableItems td {
+	padding: 1px 4px;
+}
+
+#tableItems td.percent {
+  padding: 0px 10px;
+	text-align: right;
+	color: #830131;
+}
+
+.odd {
+  background: #222222;
+}
+
+.even, .s_odd {
+  background: #111111;
+}
+
+.odd:hover, .even:hover {
+  background: #5e0022;
+}
+
+#tableWeapons, #tableWeapons tr{
+  margin: 0px; padding: 0px;
+}
+
+
+#tableWeapons td {
+  text-align: left;
+  margin: 0px;
+	padding: 0px 4px;
+	font-size: 10pt;
+}
+
+#tableWeapons td.mat {
+  text-align: right;
+  margin: 0px;
+	padding: 0px 2px;
+	font-size: 8pt;
+	color: #90b0f8;
+	border-top: 1px solid #505050;
+}
+
+#tableWeapons td.mat1 {
+	font-size: 8pt;
+	border-top: 1px solid #505050;
+}
+
+#tableItems th.heading, #tableWeapons th.heading {
+  font-size: 12pt; font-style: bold;
+	text-align: left; padding: 4px 20px;
+  color: #996666; 
+}
+
+.cont {
+margin:0px; padding: 0px;
+float: left;
+overflow: hidden;
+}
+
+.cont .dn {
+  margin: 0px 8px 0px 0px; padding: 0px;
+	width: 8px; height: 100px;
+	float: left;
+	border-right: 1px solid silver;
+}
+
+.cont .rt1 {
+  margin: 0px 0px 0px 0px; padding: 0px;
+	width: 8px; height: 100px;
+	float: left;
+	border-right: 1px solid silver;
+}
+
+.cont .rt2 {
+  margin: 0px 0px 20px 0px; padding: 0px;
+	width: 8px; height: 8px;
+	float: left;
+	border-bottom: 1px solid silver;
+}
+
+.cont .en {
+  margin: 0px 0px 20px 8px; padding: 0px;
+	width: 8px; height: 8px;
+	float: left;
+	border-left: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+
+.cont .dh {
+  margin: 0px 0px 20px 0px; padding: 0px;
+	width: 17px; height: 8px;
+	float: left;
+	border-bottom: 1px solid silver;
+}
+
+.cont .dx {
+  margin: 0px 0px 20px 0px; padding: 0px;
+	width: 17px; height: 8px;
+	float: left;
+	border-bottom: 1px solid silver;
+	position: relative; left: -9px;
+}
+
+.cont .sp {
+  margin: 0px; padding: 0px;
+	width: 17px; height: 10px;
+	float: left;
+}
+
+.cn {
+  margin: 0px 0px 0px 4px; padding: 0px;	
+	white-space: nowrap;
+	font-weight: bold;
+	float: left;
+}
+
+#tableWeapons a, #tableWeapons a:hover, #tableWeapons a:visited { color: powderblue; text-decoration: none; }
+
+.GS  { padding-left: 14px; }
+.LS  { font-style:italic; padding-left: 17px; }
+.SnS { padding-left: 19px; }
+.DS  { font-style:italic; padding-left: 19px; }
+.LC  { padding-left: 14px; }
+.GL  { font-style:italic; padding-left: 17px; }
+.HM  { padding-left: 14px; }
+.HH  { font-style:italic; padding-left: 14px; }
+.SA  { font-style:italic; padding-left: 20px; }
+
+.rare1 { color: #cccccc; }
+.rare2 { color: #cccccc; }
+.rare3 { color: #cccccc; }
+.rare4 { color: #70c888; }
+.rare5 { color: #e890a0; }
+.rare6 { color: #90b0f8; }
+.rare7 { color: #f89858; }
+.rare8 { color: #f85858; }
+.rare9 { color: #f8d058; }
+.rare10 { color: #a858c0; }
+
+.def { color: #90b0f8; }
+.Poi { color: #a858c0; }
+.Par { color: #f8d058; }
+.Slp { color: #9ac2d6; }
+.Fir { color: #f85858; }
+.Thn { color: #dde8bb; }
+.Wat { color: #4281c0; }
+.Ice { color: #8eb8bb; }
+.Drg { color: #64547e; }
+.Pwr { color: #f85858; }
+.Pai { color: lightpink; }
+.Raz { color: #ffffff; }
+.Rapid { color: #70c888; }
+.Scatter { color: #8eb8bb; }
+.Pierce { color: #dde8bb; }
+
+.note_W { color: #cccccc; }
+.note_P { color: #a858c0; }
+.note_B { color: #3333cc; }
+.note_K { color: #7777dd; }
+.note_G { color: #33cc33; }
+.note_Y { color: #cccc33; }
+.note_R { color: #cc3333; }
+
+.atk { color: #50f8f8; }
+.affpositive { color: #90b0f8; } 
+.affnegative { color: #f85858; }
+.invisible { visibility: hidden; background: none; border: none; }
+
+.sharp0 { height: 6px; background: #c00838; float: left; }
+.sharp1 { height: 6px; background: #e85018; float: left; }
+.sharp2 { height: 6px; background: #f0c830; float: left; }
+.sharp3 { height: 6px; background: #58d000; float: left; }
+.sharp4 { height: 6px; background: #3068e8; float: left; }
+.sharp5 { height: 6px; background: #f0f0f0; float: left; }
+.sharp6 { height: 6px; background: #f000f0; float: left; }
+
+.gauge {
+  margin: 0px; padding: 2px 4px;
+  width: 98px; height:7px;
+	margin-top:4px;
+}
+
+.gauge1 {
+  margin: 0px; padding: 2px 4px;
+  width: 98px; height: 7px;
+	margin-bottom:4px;
+}
+
+#tableWeapons td .mini {
+  color: skyblue;
+	font-size: 8pt;
+	font-style: italic;
+	padding: 0px 4px;
+}
+
+INPUT, BUTTON, SELECT {color: #999999;background-color: #111;border: 1px solid #3f0a1d; }
+TEXTAREA { color: #999999;background-color: #111;border: 1px solid #3f0a1d; }
+a, a:visited { color: lightsteelblue; text-decoration: none; }
+a:hover { color: lightpink; text-decoration: none; }
