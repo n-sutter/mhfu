@@ -1,20 +1,20 @@
 <html>
     <head>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="../css/socstyle.css">
-        <script type="text/javascript" src="../scripts/gs_array.js"></script>
-        <script type="text/javascript" src="../scripts/weapontree.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/socstyle.css">
+        <script type="text/javascript" src="./scripts/sns_array.js"></script>
+        <script type="text/javascript" src="./scripts/weapontree.js"></script>
     </head>
     <body>
         <center>
-            <header id="header"></header>
+            <header id="header"></header>    
             <input type="checkbox" id="expandButton" onchange="expandAll(arrWeapons, this.checked)" 
             name="expand" value="1">Expand All</input>
             <script> document.getElementById('expandButton').checked=false; </script>
             <div id="divContents"></div>       
         </center>
         <script>
-            $("#header").load("../header.html");
+            $("#header").load("./header.html");
             generateTree(arrWeapons);
         </script>
     </body>
